@@ -1,0 +1,30 @@
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Table of Contents:
+  - Link to solution
+  - My Process
+  - What I learned
+  - Acknowledgments
+  - GitHub link
+
+Link to solution:
+http://127.0.0.1:5500/qr-code-component-main/qr-code-component-main/index.html
+
+My Process: 
+  I collaborated with our teacher and students for baseline HTML and CSS; as well as using Figma and Figma plug-in "GreatFrontEnd" to retrieve exacting HTML and
+  CSS code for the design and its components.
+  *Built with: 
+  - Semantic HTML5 markup
+  - CSS custom properties
+  - Flexbox
+  - CSS Grid
+  -Figma with plugin "GreatFront End"
+
+What I learned:
+  Collaboration is a more fun way to learn to code; stressing out and trying to learn or overcome problems in isolation has been a real road-blocker for me until I 
+  really leaned into helping and being helped by my teammates in the breakout rooms or in the main zoom classroom with our Per Scholas teacher, Abraham E. Taverez.
+  I learned how to utilize Figma and VS code together to closely replicate the design given. I have more learning to do and some knowledge gaps, yet I am learning that
+  you don't need to know it all you just need to ask questions and work together.
+
+Acknowledgments: Abraham E. Tavarez (Per Scholas teacher), Jermal Wynder (classmate), Bolivar Vega (Classmate), Sophia Valladares (classmate), Phillip Howard (classmate)
+
+https://github.com/FrancesReagan
