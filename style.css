@@ -3,23 +3,11 @@
 body {
   font-family: "Outfit", serif;
   margin: 0;
+  min-height: 100 vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
    }
-
-
-   main {
-     display: flex;
-     flex-direction: column;
-     width: 100vw;
-     height: 100vh;
-    }
-
-  .container {
-    flex-grow: 1;
-    background-color: #d5e1ef;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
 
   .card {
     width: 288px;
