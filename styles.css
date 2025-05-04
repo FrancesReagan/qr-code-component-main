@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box
+}
+
+/* Body styling--centers content vertically and horizontally */
+body {
+	background-color: hsl(212, 45%, 89%);
+	font-size: 15px;
+	font-family: 'Outfit', sans-serif;
+	min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Card container--responsive with percentage width */
+.card {
+	background-color: hsl(0, 0%, 100%);
+	box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 0.625rem;
+	max-width: 100%;
+	padding: 1rem;
+	margin: 0 auto; 
+  /* margin above centers horizontally if flex fails */
+}
+
+.image-container {
+  width: 100%
+  margin-bottom: 1rem
+}
+
+/* QR code image responsive */
+img {
+  display: block;
+	width: 100%;
+	border-radius: 0.625rem;
+	height: auto;
+}
+
+/* text container for good spacing */
+.text-container {
+  padding: 0 0.5rem;
+}
+
+/* Heading responsive font size with viewport width */ 
+/* clamp() function is used to set a value that will adjust responsively between a minimum value and a maximum value 
+depending on the size of the viewport. */
+h1 {
+	font-size: clamp(1.125rem, 4vw, 1.375rem);
+	font-weight: 700;
+	color: hsl(218, 44%, 22%);
+	text-align: center;
+	margin-bottom: 1 rem;
+}
+
+/* Paragraph font size responsive */
+p {
+	font-size: clamp(0.875rem, 3vw, 0.94rem);
+	font-weight: 400;
+	color: hsl(220, 15%, 55%);
+	text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+/* Media query for smaller screens */
+@media (max-with: 330px) {
+  .card {
+    padding: 0.75rem;
+  }
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .card {
+    max-width: 330px;
+    padding: 1.25rem;
+  }
+}
