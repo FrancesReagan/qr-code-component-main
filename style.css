@@ -1,13 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+:root {
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212,45%,89%);
+  --slate-500: hsl(216,15%,48%);
+  --slate-900: hsl(218,44%,22%);
+
+  --space-200: 16px;
+  --space-300: 24px;
+  --space-500: 40px;
+
+  --radius-lg: 20px;
+  --radius-sm: 10px;
+
+  --family-sans: "Outfit", sans-serif;
+  
+  --text-preset-1: 22px; 
+}
 
 body {
-  font-family: "Outfit", serif;
-  margin: 0;
-  min-height: 100 vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-   }
+  font-family: var(--family-sans);
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+
+
+ 
 
   .card {
     width: 288px;
