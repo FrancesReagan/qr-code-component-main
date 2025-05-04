@@ -21,6 +21,13 @@
   --letter-preset-2: 0.2px;
 }
 
+/* setting reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
 body {
   font-family: var(--family-sans);
   font-optical-sizing: auto;
@@ -28,11 +35,24 @@ body {
   font-style: normal;
   font-size: var(--text-preset-2);
   line-height: var(--line-preset-2);
+  letter-spacing: var(--letter-preset-2);
+  color: var(--slate-500);
+  background-color: var(--slate-300);
 
 }
 
+h2 {
+  font-size: var(--text-preset-1);
+  line-height: var(--line-preset-1);
+  letter-spacing: var(--letter-preset-1);
+  color: var(--slate-900);
 
+}
 
+img, picture {
+  max-width: 100%;
+  display: block;
+}
  
 
   .card {
